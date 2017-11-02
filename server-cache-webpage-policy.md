@@ -35,9 +35,12 @@ Proxy cache service crawl page when user visit the page var content distribution
 * Add new field to describe web sites url patterni in robots.txt, used to define a page whether be cached.
 * robots.txt cahche expiration time can described by `Cache-Control`.
 * Use `Cache-Control` header to control cache expiration time, and use [stale-while-revalidate](https://tools.ietf.org/html/rfc5861) header to update cache smoothly.
-![stale-while-revalidate](http://bos.nj.bpc.baidu.com/v1/agroup/0521445b1415f7e3d0ba849c2fb3796df30e7854)
-Proxy cache service crawl web sites, process as follows:
-![图片](http://bos.nj.bpc.baidu.com/v1/agroup/783f2989ae849f447eb6686071d940707421ed9f)
+![stale-while-revalidate](http://bos.nj.bpc.baidu.com/v1/agroup/0521445b1415f7e3d0ba849c2fb3796df30e7854)  
+
+Proxy cache service crawl web sites, process as follows:  
+
+![图片](http://bos.nj.bpc.baidu.com/v1/agroup/783f2989ae849f447eb6686071d940707421ed9f)  
+
 
 ### use case
 
